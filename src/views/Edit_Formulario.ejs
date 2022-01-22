@@ -1,0 +1,33 @@
+<%- include('partials/cabezera.ejs') %>
+
+    <body>
+<br>
+<br>
+<br>
+
+                                <form action="/update/<%= data.id %>" method="post">
+
+                                    <div class="form-group">
+                                        <label for="Nombre">Su Nombre</label>
+                                        <input type="text" name="Nombre" value="<%= data.Nombre %> " class="form-control reg">
+                                    </div>
+<br>
+                                    <div class="form-group">
+                                        <label for="Correo">Correo Electronico</label>
+                                        <input type="email" name="Correo" value="<%= data.Correo %> " class="form-control reg">
+                                    </div>
+<br>
+                                    <div class="form-group">
+                                      <label for="Sugerencia">Sugerencia</label>
+                                      <textarea class="form-control"  name="Sugerencia" rows="3"  value="<%= data.Sugerencia%>"></textarea> </textarea>
+                                  </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <button type="submit" class="btn btn-danger">ACTUALIZAR</button>
+                                </form>
+         
+    </body>
+    <%- include('partials/navfun.ejs') %>
+
+        </html>

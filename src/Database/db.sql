@@ -1,0 +1,10 @@
+CREATE DATABASE Formulario_mensajes;
+
+
+CREATE TABLE Formulario (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Correo VARCHAR(100) NOT NULL,
+    Sugerencia VARCHAR(200) NOT NULL
+);
+
