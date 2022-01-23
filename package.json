@@ -2,12 +2,14 @@
   "name": "tower-crud",
   "version": "0.0.0",
   "private": true,
-  "main": "index.js",
 
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon src/app.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
